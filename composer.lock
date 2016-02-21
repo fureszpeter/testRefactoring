@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "furesz/typechecker",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fureszpeter/typechecker.git",
-                "reference": "1cbc53ac9c7abf967075e09308643e7306816ff6"
+                "reference": "551e2328a5147e9896acae2cecf462e2729b155c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fureszpeter/typechecker/zipball/1cbc53ac9c7abf967075e09308643e7306816ff6",
-                "reference": "1cbc53ac9c7abf967075e09308643e7306816ff6",
+                "url": "https://api.github.com/repos/fureszpeter/typechecker/zipball/551e2328a5147e9896acae2cecf462e2729b155c",
+                "reference": "551e2328a5147e9896acae2cecf462e2729b155c",
                 "shasum": ""
             },
             "require-dev": {
@@ -41,7 +41,7 @@
                 }
             ],
             "description": "Basic type assert helper",
-            "time": "2016-02-17 08:37:37"
+            "time": "2016-02-21 11:13:33"
         }
     ],
     "packages-dev": [
