@@ -61,6 +61,22 @@ class Language implements JsonSerializable
     /**
      * @return string
      */
+    public function getLanguageCode()
+    {
+        return $this->languageCode;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLanguageName()
+    {
+        return $this->languageName;
+    }
+
+    /**
+     * @return string
+     */
     public function __toString()
     {
         return $this->languageName;
