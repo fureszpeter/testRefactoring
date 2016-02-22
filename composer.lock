@@ -4,9 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b7b008eef153a98e9da489c7d05dfd1",
-    "content-hash": "713aec35fc3dd95c8a7c52a49d6b8192",
-    "packages": [],
+    "hash": "802148ba1a7f7b525c32c637d66a869c",
+    "content-hash": "88ae65c272ce74bb8b688abca219fd58",
+    "packages": [
+        {
+            "name": "furesz/typechecker",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fureszpeter/typechecker.git",
+                "reference": "551e2328a5147e9896acae2cecf462e2729b155c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fureszpeter/typechecker/zipball/551e2328a5147e9896acae2cecf462e2729b155c",
+                "reference": "551e2328a5147e9896acae2cecf462e2729b155c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furesz Peter",
+                    "email": "fureszpeter@gmail.com"
+                }
+            ],
+            "description": "Basic type assert helper",
+            "time": "2016-02-21 11:13:33"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
